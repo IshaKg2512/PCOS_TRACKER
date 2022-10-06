@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+*{
+  margin:0;
+}
+body{
+  background-color: #dbe2ff;
+}
+
+#name, h1,h3, h2{
+  font-family: "Barlow Semi Condensed"
+}
+
+#code{
+  font-family: "Barlow Semi Condensed";
+  padding: 20px 20px;
+}
+
+.nav-grid{
+  display:grid;
+  grid-template-columns: 50% 50%;
+  text-align: right;
+  font-family: "Barlow Semi Condensed";
+  padding:2% 1%;
+  background-color: 
+
+#C1CCFF;
+}
+.navGrid-inner{
+  margin-top:20px;
+}
+#navbar h2{
+  text-align:left;
+  margin-left:20px;
+  color:#28773d;
+  font-family: 'Roboto Condensed';
+  font-size: 30px;
+}
+.navGrid-inner a{
+  text-decoration: none;
+  color:black;
+  font-weight: bold;
+  margin:10px;
+  padding:0% 1% 1% 1%;
+  font-size: 18px;
+}
+.navGrid-inner a:hover{
+  border-bottom: 4px solid #31b7c9;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+
+
+.button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+}
+
+#Game{
+    background-color: rgb(196, 219, 155);
+    border: black solid;
+    text-align: center;
+    padding: 5px;
+    margin: 3px;
+}
+
+#QR{
+    background-color: rgb(167, 224, 68);
+    border: black solid;
+    text-align: center;
+    padding: 5px;
+    margin: 3px;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+}
+
+.column1 {
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+.column2 {
+    float: left;
+    width: 25%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.home-page{
+    text-align: center;
+    padding: 5px;
+    margin: 3px;
+}
+
+.home-img{
+    padding: 4px;
+}
+
+#identifyChart{
+  padding:2% 2%;
+}
+#purpose{
+  margin:1% 5%;
+  padding:2% 10%;
+  background-color: #28773d;
+  font-family: "Roboto Condensed";
+  color:white;
+  line-height: 21px;
+  font-size: 20px;
+  border-radius: 15px;
+}
+#imgdiv{
+  padding:2%;
+  background-color: #28773d;
+  border-radius: 15px;
+}
+#chart{
+  display: grid;
+  grid-template-columns: 34% 33% 33%;
+}
+#identifyChart h2{
+  font-family: "Barlow Semi Condensed";
+  text-align:center;
+  padding:1%;
+  font-size: 30px;
+}
+
+
+.logo{
+  width:50px;
+  height:40px;
+  margin-top: -5px;
+}
+.navGrid-logowrapper{
+  display:grid;
+  grid-template-columns: 40px 100px;
+}
+.grid{
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.grid2{
+  display: grid;
+  grid-template-rows: auto auto;
+  padding:30% 5%;
+}
+.grid2 button{
+  margin:2% 0%;
+  padding:2%;
+  box-shadow: 8px 8px 8px #bbbbbb;
+  background-color: #4be973;
+  font-family: "Barlow Semi Condensed";
+  font-size: 18px;
+  letter-spacing: 1px;
+  border-radius: 20px;
+}
+.grid2 h4{
+  margin:2% 0%;
+  padding:2%;
+  box-shadow: 5px 5px 5px #c9c9c9;
+  background-color: #405253;
+  color:white;
+  font-family: "Roboto Condensed";
+  font-size: 15px;
+  letter-spacing: 1px;
+  height:20px;
+}
+.ques{
+  display:grid;
+  grid-template-columns:500px 500px 300px;
+  grid-template-rows: auto;
+  padding:1% 0%;
+  text-align: left;
+  font-size: 18px;
+  font-family: sans-serif;
+  color:white;
+}
+
+.chartimg{
+  width:250px;
+  height:250px;
+  border-radius: 10px;
+  margin:20% 22%;
+}
